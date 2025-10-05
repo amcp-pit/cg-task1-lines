@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Test 1",
-      "setup": "g++ ./lines.cpp -o lines -O2 -pedantic-errors",
-      "run": "./lines tests/in1.txt out1.bmp",
+      "setup": "",
+      "run": "timeout 1 ./lines tests/in1.txt out1.bmp",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Test 2",
       "setup": "",
-      "run": "./lines tests/in2.txt out2.bmp",
+      "run": "timeout 1 ./lines tests/in2.txt out2.bmp",
       "input": "",
       "output": "",
       "comparison": "included",

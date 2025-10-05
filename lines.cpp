@@ -1,5 +1,5 @@
 #include <iostream>
-#include "rgbimage.h"
+#include "rgbimage.hpp"
 
 int main(){
 	try {
